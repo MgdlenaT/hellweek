@@ -9,7 +9,7 @@ while True:
             if user_number > number:
                 print("Too much, try again")
             elif user_number < number:
-                print("Too small")
+                print("Too small, try again")
                 continue
             else:
                 print(f"Congratulations, you guessed it! The number is {number}! ")

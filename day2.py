@@ -8,7 +8,7 @@ text = 'Python'
 
 new_list = []
 idx = 0
-print("It reads only  lines with a prefer word:")
+print("It reads only lines with a prefer word- 'Python':")
 for line in lines:
     if text in line:
         new_list.insert(idx, line)

@@ -19,7 +19,7 @@ for line in lines:
 
 Z pliku tekstowego wypisz w konsoli, słowa rozpoczynające się na literę podaną przez użytkownika.'''
 
-file = open('content.txt','r')
+file = open('content.txt', 'r')
 text = file.read()
 print("\nThis is our text: \n", text)
 while True:
